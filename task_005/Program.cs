@@ -87,8 +87,8 @@ int[,] FillAnySizeMatrixClockwise(int[,] matrix)
 
 Console.Clear();
 
-int rows = 4, // Change to any number > 0
-    columns = 4; // Change to any number > 0
+int rows = 4, // Change to any number > 1
+    columns = 4; // Change to any number > 1
 
 int[,] matrix = new int[rows, columns];
 int[,] filledMatrix = FillAnySizeMatrixClockwise(matrix); // The matrix of any size will do
